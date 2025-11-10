@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ## Download Model 
 Encoder | Adapter | LLM 
 |---|---|---
-[whisper-large-v3](https://huggingface.co/openai/whisper-large-v3) | [Adapter](https://huggingface.co/yxdu/srt-large) | [Gemma-3-27b-it](https://huggingface.co/google/gemma-3-27b-it) 
+[whisper-large-v3](https://huggingface.co/openai/whisper-large-v3) | [SRT-Large](https://huggingface.co/yxdu/srt-large) | [Gemma-3-27b-it](https://huggingface.co/google/gemma-3-27b-it) 
 ```
 cd m2m-70/models/
 git lfs clone https://huggingface.co/openai/whisper-large-v3
