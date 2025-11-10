@@ -1,6 +1,6 @@
 
 This project is a subproject of https://github.com/X-LANCE/SLAM-LLM.  
-/mgData2/yxdu/github/README.md
+
 # SRT-Large
 
 ## 70 Languages
@@ -23,6 +23,16 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
+## Download Model 
+Encoder | Adapter | LLM 
+|---|---|---
+[whisper-large-v3](https://huggingface.co/openai/whisper-large-v3) | [Adapter](https://huggingface.co/yxdu/srt-large) | [Gemma-3-27b-it](https://huggingface.co/google/gemma-3-27b-it) 
+```
+cd models/
+git lfs clone https://huggingface.co/openai/whisper-large-v3
+git lfs clone https://huggingface.co/yxdu/srt-large
+git lfs clone https://huggingface.co/google/gemma-3-27b-it
+```
 
 
 ## Infer Demo

@@ -52,11 +52,6 @@ check_and_download() {
     fi
 }
 
-# 检查模型和数据
-check_and_download "${models_dir}/whisper-large-v3" "https://huggingface.co/openai/whisper-large-v3" "Whisper模型"
-check_and_download "${models_dir}/srt-large" "https://huggingface.co/yxdu/srt-large" "SRT模型"
-check_and_download "${models_dir}/gemma-3-27b-it" "https://huggingface.co/google/gemma-3-27b-it" "Gemma模型"
-
 # 检查数据
 if [ ! -f "${data_dir}/s2tt/srt_demo_70.jsonl" ]; then
     check_and_download "${data_dir}/s2tt" "https://huggingface.co/datasets/yxdu/srt-demo-s2tt-70" "演示数据"
