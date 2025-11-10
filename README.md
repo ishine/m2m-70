@@ -18,10 +18,13 @@ cd m2m-70/SLAM-LLM
 pip install -e .
 sudo apt install ffmpeg
 pip install -r requirements.txt
+```
+
 
 
 ## Infer Demo
-This is an automatic inference script for the fleurs dataset from 70 to 69, total 4,830 directions.
+This is an demo inference script for the fleurs dataset from 70 to 69, total 4,830 directions.
+
 ```
 bash scripts/infer_demo.sh
 ```
