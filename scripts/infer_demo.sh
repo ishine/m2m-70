@@ -121,7 +121,7 @@ torchrun \
     ++model_config.encoder_projector=$encoder_projector \
     ++model_config.beam=$beam \
     ++dataset_config.dataset=st_dataset \
-    ++dataset_config.file=examples/st_covost2/dataset/st_dataset.py:get_speech_dataset \
+    ++dataset_config.file=${code}/examples/st_covost2/dataset/st_dataset.py:get_speech_dataset \
     ++dataset_config.val_data_path=$val_data_path \
     ++dataset_config.input_type=mel \
     ++dataset_config.fix_length_audio=$fix_length_audio \
