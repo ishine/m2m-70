@@ -27,7 +27,7 @@ beam=1
 validnum=-2
 
 encoder_path_hf=${code}/../models/whisper-large-v3
-ckpt_name=${code}/../models/srt-large/srt_large_27b.pt
+ckpt_name=${code}/../models/mcat-large/mcat_large_27b.pt
 llm_path=${code}/../models/gemma-3-27b-it
 val_data_path=${code}/../data/s2tt/srt_demo_70.jsonl
 

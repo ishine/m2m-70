@@ -1,7 +1,7 @@
 
 This project is a subproject of https://github.com/yxduir/LLM-SRT and https://github.com/X-LANCE/SLAM-LLM.  
 
-# SRT-Large
+# MCAT Models
 
 ## 70 Languages
 <img src="SLAM-LLM/examples/st_covost2/image/70_language.png" alt="Photo" style="width:75%;">
@@ -27,12 +27,12 @@ cd ..
 ## Download Model 
 Encoder | Adapter | LLM 
 |---|---|---
-[whisper-large-v3](https://huggingface.co/openai/whisper-large-v3) | [Adapter](https://huggingface.co/yxdu/srt-large) | [Gemma-3-27b-it](https://huggingface.co/google/gemma-3-27b-it) 
+[whisper-large-v3](https://huggingface.co/openai/whisper-large-v3) | [Adapter](https://huggingface.co/yxdu/mcat-large) | [Gemma-3-27b-it](https://huggingface.co/google/gemma-3-27b-it) 
 ```
 cd models/
 # Total 150G of storage space for models
 git lfs clone https://huggingface.co/openai/whisper-large-v3
-git lfs clone https://huggingface.co/yxdu/srt-large
+git lfs clone https://huggingface.co/yxdu/mcat-large
 # Access to the Gemma models is required before using git lfs.
 git lfs clone https://huggingface.co/google/gemma-3-27b-it
 cd ..
