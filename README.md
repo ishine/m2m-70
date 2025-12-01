@@ -4,7 +4,7 @@ This project is a subproject of https://github.com/yxduir/LLM-SRT and https://gi
 # MCAT Models
 
 ## 70 Languages
-<img src="SLAM-LLM/examples/st_covost2/image/70_language.png" alt="Photo" style="width:75%;">
+<img src="SLAM-LLM/examples/st_covost2/image/70_language.png" alt="Photo" style="width:50%;">
 
 
 ## Installation
