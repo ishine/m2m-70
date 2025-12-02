@@ -53,7 +53,6 @@ bash scripts/infer_demo.sh
 Please refer to [ours previous work](https://github.com/yxduir/LLM-SRT).
 
 ##  Citation
-You can refer to the paper for more results. 
 ```
 @misc{du2025mcatscalingmanytomanyspeechtotext,
       title={MCAT: Scaling Many-to-Many Speech-to-Text Translation with MLLMs to 70 Languages}, 
